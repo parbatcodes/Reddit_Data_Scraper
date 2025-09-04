@@ -1,4 +1,4 @@
-## Prerequisites 
+# Prerequisites 
  A reddit account  
     &nbsp;&nbsp;- To use it api<br/>
     
