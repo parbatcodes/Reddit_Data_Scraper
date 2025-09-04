@@ -42,7 +42,8 @@ REDDIT_USERNAME=your_username
 REDDIT_PASSWORD=your_password
 REDDIT_USER_AGENT=your_app_name
 # Getting Google Cloud Vision API Credentials
-
+```
+# Getting Google Cloud Vision API Credentials
 Follow these steps to generate a service account key for Google Cloud Vision API:
 
 1. Go to the [Google Cloud Console](https://console.cloud.google.com/).
