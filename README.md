@@ -41,3 +41,25 @@ REDDIT_CLIENT_SECRET=your_client_secret_here
 REDDIT_USERNAME=your_username
 REDDIT_PASSWORD=your_password
 REDDIT_USER_AGENT=your_app_name
+# Getting Google Cloud Vision API Credentials
+
+Follow these steps to generate a service account key for Google Cloud Vision API:
+
+1. Go to the [Google Cloud Console](https://console.cloud.google.com/).
+2. Create a new project or select an existing one.
+3. Enable the **Vision API**:
+   - In the sidebar, go to **APIs & Services > Library**.
+   - Search for **Vision API** and click **Enable**.
+4. Create service account credentials:
+   - Go to **APIs & Services > Credentials**.
+   - Click **Create Credentials > Service Account**.
+5. Enter a service account name, then assign a role (e.g., **Editor** or a custom role with Vision API access).
+6. After creating the service account, open it and go to the **Keys** tab.
+7. Click **Add Key > Create New Key** → select **JSON** → **Create**.
+8. A `.json` key file will be downloaded to your computer. This is your **service account key**.
+
+
+
+```bash
+credentials = service_account.Credentials.from_service_account_file("/content/chat-image-detector-b43386af8be8.json")
+
