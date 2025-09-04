@@ -1,0 +1,2 @@
+praw
+google-cloud-vision
