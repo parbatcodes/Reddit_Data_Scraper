@@ -36,9 +36,7 @@ Follow these steps to generate Reddit API credentials for your project:
 
 ```env
 REDDIT_CLIENT_ID=your_client_id_here
-REDDIT_CLIENT_SECRET=your_client_secret_here
-REDDIT_USERNAME=your_username
-REDDIT_PASSWORD=your_password
+REDDIT_CLIENT_SECRET=your_client_secret_here  
 REDDIT_USER_AGENT=your_app_name
 # Getting Google Cloud Vision API Credentials
 ```
