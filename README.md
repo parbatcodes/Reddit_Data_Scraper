@@ -2,7 +2,7 @@
 
 ### Prerequisites 
  A reddit account  
-    &nbsp;&nbsp;- To use it api    
+    &nbsp;&nbsp;- To use it api  <br/>
  A Google cloud account  
     &nbsp;&nbsp;- To use its Vision AI API  
    
