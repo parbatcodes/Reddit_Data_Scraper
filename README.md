@@ -2,9 +2,9 @@
 
 ### Prerequisites 
  A reddit account  
-    -To use it api    
+    -&nbsp&nbspTo use it api    
  A Google cloud account  
-    -To use its Vision AI API  
+    -&nbsp&nbspTo use its Vision AI API  
    
 1. Open the <code> data_collector.ipynb </code> file in Google Colab
 2. Upload <code> Requirement.txt </code>, Google Cloud's Vision AI Service key which will be a <code> .json </code> file in **/content/** folder in google colab
